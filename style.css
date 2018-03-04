@@ -131,6 +131,14 @@ p a:hover {
   text-decoration: none;
   font-size: 1.5em;
 }
+#btn2{
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  font-size: 14px;
+  padding: 14px 20px;
+  color: #FFF;
+  text-decoration: none;
+  font-size: 1.5em;
+}
 
 .menu{
   width: auto;
@@ -141,6 +149,13 @@ p a:hover {
 	bottom: 14px;
 	width: 95%;
 	padding: 14px 20px;
+}
+.footer2{
+  position: fixed;
+  text-align: right;
+  bottom: 14px;
+  width: 95%;
+  padding: 14px 20px;
 }
 div p {
 	display: inline;
@@ -180,8 +195,8 @@ ul li a:hover{
 }
 .hide{ 
   display: none;
-  width: 60%;
-  height: auto;
+  width: 80%;
+  height: 60%;
   margin-left: 100px;
 }
 
@@ -199,19 +214,37 @@ ul li a:hover{
     display: none;
     color: white;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 18px;
+    font-family: Pacifico;
     border-radius: 15px 50px;
     width: 60%;
-    margin: 10%;
+    margin: 5%;
+    padding: 140px 100px;
+
     background: rgba(255, 255, 255, 0.2);
-    text-align: center;
+    text-align: justify;
+   
+}
+  #menu3 {
+    display: none;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Pacifico;
+    border-radius: 15px 50px;
+    width: 60%;
+    margin: 5%;
+    padding: 160px 100px;
+
+    background: rgba(255, 255, 255, 0.2);
+    text-align: justify;
    
 }
 
 #text{
     color: white;
-    font-size: 20px;
-    font-family: default;
+    font-size: 15px;
+    font-family: Pacifico;
     animation: none;
   }
   #back{
@@ -219,4 +252,9 @@ ul li a:hover{
     left: 400px;
     width: 60% ;
     font-family: Monoton;
+  }
+  #im{
+    width: 40%;
+    float: right;
+    padding: 15px;
   }

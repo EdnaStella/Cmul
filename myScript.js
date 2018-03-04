@@ -64,5 +64,16 @@
 				objSelected=false;
 				document.getElementById(id1).style.display='none';
 				document.getElementById(id2).style.display='block';
+				document.getElementById('btn2').style.display='block';
+
 							
 }
+function change_footer() {
+				// body...
+				objSelected=false;
+				document.getElementById('btn').style.display='none';
+				document.getElementById('btn2').style.display='block';
+
+
+
+			}	
