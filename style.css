@@ -157,6 +157,8 @@ ul li{
   text-align: center;
   color: white;
   cursor: pointer;
+  text-align: center;
+  list-style-type: none;
 }
 ul li a{
     color: white;
