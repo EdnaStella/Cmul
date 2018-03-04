@@ -12,11 +12,11 @@
 		 <script type="text/javascript" src="myScript.js"></script> 
 
 	</head>
-	<body>
+	<body id="bdy">
 
 		<img src="https://media.giphy.com/media/3o7ZeFq8fAgO3dXYRy/giphy.gif" 
 			 id="vid" onclick="window.open('https://www.youtube.com/watch?v=neFzQ-vBXm0')">
-		<nav class='menu'>
+		<nav class='menu1' id="menu1">
 		  <ul>
 		  	<li >
 		  		<a onmouseover="show_item('hide1','hide2')"
@@ -24,7 +24,11 @@
 		  		   onclick="block_item('hide1','hide2')">Historia</a></li>
 		  	</li>
 			  	<li class="hide" id="hide1">
-			  		<a href="criador.html">O criador</a>
+			  		<a >Origens</a>
+			  		<p>
+			  		<a id="text">
+			  		A Realidade Aumentada foi trabalhada durante decadas,antes do seu surgimento...   </a></p>
+			  		<a onclick="show_div('menu1','menu2')">Ler Mais
 			  		<a id="close" onclick="close_item('hide1')">close</a>
 			  	</li>
 			  	<li class="hide" id="hide2">
@@ -70,10 +74,16 @@
 			  	</li>
 		  </ul>
 		</nav>
+		<nav class="menu2" id="menu2">
+		A Realidade Aumentada foi trabalhada durante decadas,antes do seu surgimento como a conhecemos nos dias de hoje.
+		A ideia base da tecnologia é a criação duma versão do mundo que não é real, mas que melhora a versão real.
+		<a id="back" onclick="location.href='cMul_.html'">Voltar</a>
+		</nav>
 		<div class="footer" id="btn">
 			<p><a href="indice.pdf" id='btn' >Conteúdos</a></p>
 			<p><a href="PDF.pdf" id='btn'>Download Pdf</a></p>
 		    <p><a href="https://en.wikipedia.org/wiki/Yellow" id='btn'>Quem Somos</a></p>
 		</div>
+		
 	</body>
 </html>
