@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8"/>
+	<!-- https://media.giphy.com/media/nUSgpi4vHWqDC/giphy.gif -->
+
+    <title>Realidade Aumentada</title>
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>		
+		<link href='https://fonts.googleapis.com/css?family=Iceland' rel='stylesheet' type='text/css'>
+		 <script type="text/javascript" src="myScript.js"></script> 
+
+	</head>
+	<body>
+
+		<img src="https://media.giphy.com/media/3o7ZeFq8fAgO3dXYRy/giphy.gif" 
+			 id="vid" onclick="window.open('https://www.youtube.com/watch?v=neFzQ-vBXm0')">
+		<nav class='menu'>
+		  <ul>
+		  	<li >
+		  		<a onmouseover="show_item('hide1','hide2')"
+		  		   onmouseout="hide_item('hide1','hide2')" 
+		  		   onclick="block_item('hide1','hide2')">Historia</a></li>
+		  	</li>
+			  	<li class="hide" id="hide1">
+			  		<a href="criador.html">O criador</a>
+			  		<a id="close" onclick="close_item('hide1')">close</a>
+			  	</li>
+			  	<li class="hide" id="hide2">
+			  		<a href="criador.html">Motivações</a>
+			  		<a id="close" onclick="close_item('hide2')">close</a>
+			  	</li>
+		  	<li><a onmouseover="show_item('hide3','hide4')"
+		  		   onmouseout="hide_item('hide3','hide4')" 
+		  		   onclick="block_item('hide3','hide4')">DEFINIÇÃO</a></li>
+			  	<li class="hide" id="hide3">
+			  		<a href="criador.html">Utilidade</a>
+			  		<a id="close" onclick="close_item('hide3')">close</a>
+			  	</li>
+			  	<li class="hide" id="hide4">
+			  		<a href="criador.html">Tecnologia</a>
+			  		<a id="close" onclick="close_item('hide4')">close</a>
+			  	</li>
+		  	<li><a onmouseover="show_item('hide5','hide5')"
+		  		   onmouseout="hide_item('hide5','hide5')" 
+		  		   onclick="block_item('hide5','hide5')">ALTERNATIVA</a></li>
+		  		<li class="hide" id="hide5">
+			  		<a href="criador.html">Realidade Virtual</a>
+			  		<a id="close" onclick="close_item('hide5')">close</a>
+			  	</li>
+
+		  	<li><a onmouseover="show_item('hide6','hide6')"
+		  		   onmouseout="hide_item('hide6','hide6')" 
+		  		   onclick="block_item('hide6','hide6')">APLICAÇÕES</a></li>
+		  		<li class="hide" id="hide6">
+			  		<a href="criador.html">Top Ten</a>
+			  		<a id="close" onclick="close_item('hide6')">close</a>
+			  	</li>			  		
+		  	<li><a onmouseover="show_item('hide7','hide7')"
+		  		   onmouseout="hide_item('hide7','hide7')" 
+		  		   onclick="block_item('hide7','hide7')">CONCORRNCIA</a></li>
+		  		<li class="hide" id="hide7">
+			  		<a href="criador.html">Custos</a>
+			  		<a id="close" onclick="close_item('hide7')">close</a>
+			  	</li>
+		  </ul>
+		</nav>
+		<div class="footer" id="btn">
+			<p><a href="indice.pdf" id='btn' >Conteúdos</a></p>
+			<p><a href="PDF.pdf" id='btn'>Download Pdf</a></p>
+		    <p><a href="https://en.wikipedia.org/wiki/Yellow" id='btn'>Quem Somos</a></p>
+		</div>
+	</body>
+</html>
