@@ -214,10 +214,10 @@ ul li a:hover{
   width: 25px ;
   font-family: Monoton;
   }
-  #hide9{
+/*  #hide9{
     display: none;
     transition: .25s ease;
-  }
+  }*/
   #menu2 {
     display: none;
     color: white;
@@ -274,7 +274,7 @@ ul li a:hover{
     width: 40%;
     float: left;
     padding: 15px;
-    
+
   }
   #im3{
     width: 60%;
