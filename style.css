@@ -1,13 +1,17 @@
 body {
   overflow: hidden;
   background-color: black;
-  background:url('https://media.giphy.com/media/ygAaR0n5RsyAM/giphy.gif');
+  /*background:url('https://media.giphy.com/media/ygAaR0n5RsyAM/giphy.gif');*/
   background-repeat:no-repeat;
   background-size: 100%;
+      overflow-y:auto;
+
 }
 p:nth-child(1) a {
   color: #228DFF;
-  font-family: Pacifico;
+ /* font-family: Pacifico;*/
+     font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+
   font-size: 2.5em;
 }
 
@@ -19,7 +23,9 @@ p:nth-child(1) a:hover {
 }
 p:nth-child(2) a {
   color: #228DFF;
-  font-family: Pacifico;
+ /* font-family: Pacifico;*/
+     font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+
   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
   -moz-animation: neon1 1.5s ease-in-out infinite alternate;
   animation: neon1 1.5s ease-in-out infinite alternate;
@@ -28,7 +34,9 @@ p:nth-child(2) a {
 }p:nth-child(3) a {
   font-size: 1.5em;
   color: #228DFF;
-  font-family: Pacifico;
+ /* font-family: Pacifico;*/
+     font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+
   font-size: 2.5em;
 
 }
@@ -215,7 +223,9 @@ ul li a:hover{
     color: white;
     text-decoration: none;
     font-size: 18px;
-    font-family: Pacifico;
+ /* font-family: Pacifico;*/
+     font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+
     border-radius: 15px 50px;
     width: 60%;
     margin: 5%;
@@ -223,14 +233,16 @@ ul li a:hover{
 
     background: rgba(255, 255, 255, 0.2);
     text-align: justify;
-   
+
 }
   #menu3 {
     display: none;
     color: white;
     text-decoration: none;
     font-size: 18px;
-    font-family: Pacifico;
+ /* font-family: Pacifico;*/
+     font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+
     border-radius: 15px 50px;
     width: 60%;
     margin: 5%;
@@ -244,7 +256,7 @@ ul li a:hover{
 #text{
     color: white;
     font-size: 15px;
-    font-family: Pacifico;
+    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
     animation: none;
   }
   #back{
@@ -256,5 +268,16 @@ ul li a:hover{
   #im{
     width: 40%;
     float: right;
+    padding: 15px;
+  }
+   #im1{
+    width: 40%;
+    float: left;
+    padding: 15px;
+    
+  }
+  #im3{
+    width: 60%;
+    float: left;
     padding: 15px;
   }
