@@ -252,6 +252,23 @@ ul li a:hover{
     text-align: justify;
    
 }
+  #menu4 {
+    display: none;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+ /* font-family: Pacifico;*/
+     font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+
+    border-radius: 15px 50px;
+    width: 60%;
+    margin: 5%;
+    padding: 160px 100px;
+
+    background: rgba(255, 255, 255, 0.2);
+    text-align: justify;
+   
+}
 
 #text{
     color: white;
